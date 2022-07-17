@@ -1,6 +1,5 @@
-from math import sqrt as sqrt
-
 def isPrime(num):
+    from math import sqrt as sqrt
     if num < 2 or type(num) == float:
         return False
     else:
